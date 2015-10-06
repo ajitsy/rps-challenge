@@ -1,8 +1,14 @@
 <div>
-  <p>Let's play a game of rock paper scissors! Click 'New Game' to start'</p>
-
-  <a href="/name_set">New Game</a>
-
+  <% if @name %>
+  <div>Hello, <%= @name %></div>
+  <div>Choose Game Type</div>
+  <div><a href="/play">One Player Game</a></div>
+  </form>
+  <% else %>
+  <form action="/" method="post">
+    Enter Name:
+    <input name="name" type="text">
+    <input type="submit" value="Submit">
+  </form>
+  <% end %>
 </div>
-
-<!-- <img src="/images/alex.jpg" alt="alex"> -->

@@ -34,4 +34,4 @@ Technologies Used:
 * Capybara
 * Rspec
 
-Note: Repository was updated from [this repo](https://github.com/ajitsy/takeaway)
+Note: Repository was updated from [this repo](https://github.com/ajitsy/rps2)

@@ -1,4 +1,4 @@
-RPS Challenge
+# RPS Challenge
 -------
 
 A simple _Rock, Paper, Scissors_ game to play against a computer
@@ -19,8 +19,10 @@ How to Use:
 -------
 
 ```
-bundle install
-rackup
+$ git clone https://github.com/ajitsy/inject-challenge.git
+$ cd inject-challenge
+$ bundle install
+$ rackup
 ```
 
 Use Rspec to test it.
@@ -31,3 +33,5 @@ Technologies Used:
 * Sinatra
 * Capybara
 * Rspec
+
+Note: Repository was updated from [this repo](https://github.com/ajitsy/takeaway)
